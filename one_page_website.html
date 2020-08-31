@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<header>
+<h1>Bubble Helmet Jet Pack Attachments</h1>
+<link href ="CSS/CSS.css" rel ="stylesheet" type ="text/css">
+<script src="CSS/one_page_website.js/one_page_website.js"></script>
+</header>
+<p>Take flight Today!
+</p>
+
+<!-- HOME -->
+
+<div id="home">
+	<div>
+	</div>
+
+<body>
+
+	<h2 style="text-align:center">Lightbox</h2>
+	
+	<div class="row">
+	  <div class="column">
+		<img src="CSS/Images/Thumbnail_1jet.png" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+	  </div>
+	  <div class="column">
+		<img src="CSS/Images/Thumbnail_2jet.png" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+	  </div>
+	  <div class="column">
+		<img src="CSS/Images/Thumbnail_3jet.png" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+	  </div>
+	  <div class="column">
+		<img src="CSS/Images/Thumbnail_4jet.png" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+	  </div>
+	</div>
+	
+	<div id="myModal" class="modal">
+	  <span class="close cursor" onclick="closeModal()">&times;</span>
+	  <div class="modal-content">
+	
+		<div class="mySlides">
+		  <div class="numbertext">1 / 4</div>
+		  <img src="CSS/Images/Thumbnail_1jet.png" style="width:100%">
+		</div>
+	
+		<div class="mySlides">
+		  <div class="numbertext">2 / 4</div>
+		  <img src="CSS/Images/Thumbnail_2jet.png" style="width:100%">
+		</div>
+	
+		<div class="mySlides">
+		  <div class="numbertext">3 / 4</div>
+		  <img src="CSS/Images/Thumbnail_3jet.png" style="width:100%">
+		</div>
+		
+		<div class="mySlides">
+		  <div class="numbertext">4 / 4</div>
+		  <img src="CSS/Images/Thumbnail_4jet.png" style="width:100%">
+		</div>
+		
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+	
+		<div class="caption-container">
+		  <p id="caption"></p>
+		</div>
+	
+	
+		<div class="column">
+		  <img class="demo cursor" src="CSS/Images/Thumbnail_1jet.png" style="width:100%" onclick="currentSlide(1)" alt="Flying Jetpackman">
+		</div>
+		<div class="column">
+		  <img class="demo cursor" src="CSS/Images/Thumbnail_2jet.png" style="width:100%" onclick="currentSlide(2)" alt="Flying">
+		</div>
+		<div class="column">
+		  <img class="demo cursor" src="CSS/Images/Thumbnail_3jet.png" style="width:100%" onclick="currentSlide(3)" alt="Small Jetpack">
+		</div>
+		<div class="column">
+		  <img class="demo cursor" src="CSS/Images/Thumbnail_4jet.png" style="width:100%" onclick="currentSlide(4)" alt="Large Jetpack">
+		</div>
+	  </div>
+	</div>
+
+<iframe width="420" height="315"
+src="https://youtube.com/embed/gCYSWyHDpfU">
+</iframe>
+
+<!--  Nav   -->
+	<div>
+		<div>
+			<ul>
+				<a href="#home" id="link"<li>HOME</li></a>
+				<a href="#gallery"><li>GALLERY</li></a>
+				<a href="#contact"><li>RESERVATIONS</li></a>
+			</ul>
+		</div>
+	</div>
+<!-- END NAV -->
+
+<!-- RSVP -->
+<section>
+<div id="contact">
+	<div Reservations h1></div>
+		<div>
+			<h2><span>Your adventure is out there, maybe with JetPacks.</span>
+			<br> Sign up for you Pack today</br>
+			</h2>
+				<p>Please provide us with your basic contact information!</p>
+					<div>=
+			<form action="" method="Post">
+							<input class="rsvp" type="text" value="First Name">
+							<input class="rsvp" type="text" value="Last Name">
+							<input class="rsvp" type="text" value="Email Address">
+							<input class="rsvp" type="text" value="Phone Number">
+					<div class="form-spacer">
+					<label class="terms">Terms and Conditions</label>
+					</div>
+				<div>
+				<input type="sumbit" value="Submit">
+				</div>
+			</form>
+			</div>
+		</div>
+	</div>
+</div>
+</section>
+<!-- END RSVP -->
+<!-- FOOTER -->
+<div>
+www.Spacedive.space &nbsp;| &nbsp; @copy; 2020
+</div>
+<!-- END FOOTER -->
+
+</body>
+</html>
